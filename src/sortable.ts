@@ -4,6 +4,6 @@ import { customElement, bindable } from "aurelia-framework";
 export class Sortable {
   @bindable name: string = null;
 
-  // attached() {
-  // }
+  attached() {
+  }
 }
