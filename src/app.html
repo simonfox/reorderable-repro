@@ -1,0 +1,7 @@
+<template>
+  <require from="./sortable"></require>
+  <h1>${message}</h1>
+  <div reorderable-repeat.for="item of items">
+    <sortable name.to-view="item.name">
+  </div>
+</template>
